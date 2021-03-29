@@ -115,3 +115,31 @@ a {
 }// end navbar 
 
 // colors are changeable. im waiting for decision
+
+
+// The end navbar
+
+
+.about__me {
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  text-align: center;
+
+  .about__me--text {
+    max-width: 500px;
+    padding: 0 30px;
+  }
+
+    .social__media {
+      font-size: 40px;
+      cursor: pointer;
+
+      .fa-facebook {
+        color: rgb(64, 122, 189);
+      }
+      .fa-instagram {
+        color: rgb(196, 44, 94);
+      }
+    }
+}

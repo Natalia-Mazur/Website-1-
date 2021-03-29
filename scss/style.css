@@ -115,4 +115,34 @@ header {
 .navbar .navbar__menu li:hover {
   background-position: 0 100%;
 }
+
+.about__me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.about__me .about__me--text {
+  max-width: 500px;
+  padding: 0 30px;
+}
+
+.about__me .social__media {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.about__me .social__media .fa-facebook {
+  color: #407abd;
+}
+
+.about__me .social__media .fa-instagram {
+  color: #c42c5e;
+}
 /*# sourceMappingURL=style.css.map */
