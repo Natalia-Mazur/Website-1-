@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:800&display=swap");
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -58,5 +59,60 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+header {
+  background-color: #141a6dbd;
+}
+
+.navbar {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+  max-height: 100vh;
+  padding: 15px 0;
+}
+
+.navbar .logo {
+  size: 40px;
+}
+
+.navbar .navbar__menu {
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.navbar .navbar__menu li {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  padding: 0 30px;
+  font-weight: 800;
+  color: royalblue;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, right top, from(midnightblue), color-stop(50%, midnightblue), color-stop(50%, royalblue));
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  -webkit-transition: background-position 1s ease;
+  transition: background-position 1s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar .navbar__menu li:hover {
+  background-position: 0 100%;
 }
 /*# sourceMappingURL=style.css.map */

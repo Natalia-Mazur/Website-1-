@@ -1,5 +1,7 @@
-$fonts: "Times New Roman", Times, serif;
-$color-1: #5a5a5a;
+@import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
+$color-violet:rgb(117, 89, 182); 
+$color-black: rgb(0, 0, 0);
+$background-color: rgb(164, 133, 204);
 
 
 
@@ -66,3 +68,50 @@ a {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+ header {
+   background-color: #141a6dbd;
+ }
+ 
+.navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100vh;
+  padding: 15px 0;
+
+  .logo {
+    size: 40px;
+  }
+    .navbar__menu {
+      text-transform: uppercase;
+      list-style-type: none; 
+    
+        li {
+          position: relative;
+          display: inline-block;
+          font-size: 18px;
+          padding: 0 30px;
+          font-weight: 800;
+          color: royalblue;
+          overflow: hidden;
+          background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-size: 200% 100%;
+          background-position: 100%;
+          transition: background-position 1s ease;
+          text-decoration: none; 
+          cursor: pointer;
+          &:hover {
+            background-position: 0 100%;
+          }
+        }
+    }
+
+}// end navbar 
+
+// colors are changeable. im waiting for decision
