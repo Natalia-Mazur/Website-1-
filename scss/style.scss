@@ -70,6 +70,7 @@ a {
 
 .container {
   max-width: 1200px;
+  margin: 0 auto;
 }
 
  header {
@@ -83,9 +84,17 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   max-width: 1200px;
   padding: 15px 0;
 
+    .line {
+      background: linear-gradient(to right, #39bcf0, #6a77e0 , #8e44d3 , #687ae0);
+      width: 350px;
+      height: 3px;
+      border: none;
+      margin-top: 50px;
+    }
   .logo {
     size: 40px;
     padding: 0 30px;
@@ -135,30 +144,20 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
   background-color: $background-color;
   // background: linear-gradient(to right, #49a5ea , #6a77e0  ,#7e5bd9,  #8e44d3 , #687ae0); // < ----- background 2
   font-family: $font;
-  padding: 90px 0;
+  padding: 140px 0;
 
-  .about__me--text {
-    max-width: 500px;
-    padding: 60px 30px;
-    font-size: 18px;
-    color: $color-3;
-  }
-
-    .social__media {
-      font-size: 40px;
-      cursor: pointer;
-
-      .fa-facebook {
-        color: rgb(0, 119, 255);
-      }
-      .fa-instagram {
-        color: rgb(255, 0, 0);
-      }
+    .about__me--text {
+      max-width: 500px;
+      padding: 60px 30px;
+      font-size: 18px;
+      color: $color-3;
     }
+
 }
 
-
+//  the end section about me 
