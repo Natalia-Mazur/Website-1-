@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
-$color-violet:rgb(117, 89, 182); 
-$color-black: rgb(0, 0, 0);
-$background-color: rgb(164, 133, 204);
+
+$background-color: #161616;
+$color-1: #39bcf0;
+$color-2: #6a77e0;
+$color-3: #8e44d3;
+$font: 'Playfair Display SC', serif;
+
 
 
 
@@ -66,11 +70,11 @@ a {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
 }
 
  header {
-   background-color: #141a6dbd;
+   background-color: #161616;
+   max-height: 120px;
  }
  
 .navbar {
@@ -78,26 +82,33 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  max-width: 100%;
-  max-height: 100vh;
+  justify-content: center;
+  max-width: 1200px;
   padding: 15px 0;
 
   .logo {
     size: 40px;
+    padding: 0 30px;
+
+      img {
+      width: 100px; 
+      margin: 0;
+      }
   }
     .navbar__menu {
       text-transform: uppercase;
       list-style-type: none; 
     
         li {
+          font-family: $font;
           position: relative;
           display: inline-block;
-          font-size: 18px;
+          font-size: 22px;
           padding: 0 30px;
-          font-weight: 800;
+          font-weight: 900;
           color: royalblue;
           overflow: hidden;
-          background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+          background: linear-gradient(to right, #39bcf0, #6a77e0 50%, #8e44d3 50% , #687ae0);
           background-clip: text;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
@@ -123,12 +134,18 @@ a {
 .about__me {
   display: flex;
   flex-direction: row;
-  margin-top: 90px;
+  justify-content: center;
   text-align: center;
+  background-color: $background-color;
+  // background: linear-gradient(to right, #49a5ea , #6a77e0  ,#7e5bd9,  #8e44d3 , #687ae0); // < ----- background 2
+  font-family: $font;
+  padding: 90px 0;
 
   .about__me--text {
     max-width: 500px;
-    padding: 0 30px;
+    padding: 60px 30px;
+    font-size: 18px;
+    color: $color-3;
   }
 
     .social__media {
@@ -136,10 +153,12 @@ a {
       cursor: pointer;
 
       .fa-facebook {
-        color: rgb(64, 122, 189);
+        color: rgb(0, 119, 255);
       }
       .fa-instagram {
-        color: rgb(196, 44, 94);
+        color: rgb(255, 0, 0);
       }
     }
 }
+
+
