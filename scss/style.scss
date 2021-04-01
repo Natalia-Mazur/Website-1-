@@ -79,14 +79,13 @@ a {
  }
  
 .navbar {
-  position: absolute;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 1200px;
-  padding: 15px 0;
+  padding-top: 30px;
 
     .line {
       background: linear-gradient(to right, #39bcf0, #6a77e0 , #8e44d3 , #687ae0);
