@@ -73,9 +73,17 @@ a {
   margin: 0 auto;
 }
 
+.line {
+  background: linear-gradient(to right, #39bcf0, #6a77e0 , #8e44d3 , #687ae0);
+  width: 350px;
+  height: 3px;
+  border: none;
+  margin-top: 50px;
+}
+
  header {
    background-color: #161616;
-   max-height: 120px;
+   max-height: 330px;
  }
  
 .navbar {
@@ -84,18 +92,10 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1200px;
   padding-top: 30px;
 
-    .line {
-      background: linear-gradient(to right, #39bcf0, #6a77e0 , #8e44d3 , #687ae0);
-      width: 350px;
-      height: 3px;
-      border: none;
-      margin-top: 50px;
-    }
   .logo {
-    size: 40px;
+    size: 30px;
     padding: 0 30px;
 
       img {
@@ -143,20 +143,27 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: row wrap;
   text-align: center;
   background-color: $background-color;
   // background: linear-gradient(to right, #49a5ea , #6a77e0  ,#7e5bd9,  #8e44d3 , #687ae0); // < ----- background 2
   font-family: $font;
-  padding: 140px 0;
+  padding: 90px 0;
 
+    img {
+      width: 300px; 
+      margin: 0;
+    }
     .about__me--text {
       max-width: 500px;
       padding: 60px 30px;
       font-size: 18px;
       color: $color-3;
     }
-
+ 
 }
 
+.line__aboutme {
+  margin-top: -50px;
+}
 //  the end section about me 
