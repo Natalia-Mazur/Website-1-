@@ -218,4 +218,30 @@ h1, h2, h3, h4, h5, h6 {
 hr.line-small {
   width: 50px;
 }
+
+.details {
+  top: -100px;
+  left: 50%;
+  text-align: center;
+}
+
+.details .title {
+  margin-bottom: 0;
+}
+
+.details .button {
+  background: transparent;
+  border: 1px solid #8e44d3;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  z-index: 9999;
+}
+
+.details .button:hover {
+  background: #39bcf0;
+  color: #6a77e0;
+}
 /*# sourceMappingURL=style.css.map */
