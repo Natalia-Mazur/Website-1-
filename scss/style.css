@@ -169,4 +169,53 @@ header {
 .line__aboutme {
   margin-top: -50px;
 }
+
+.carousel__sliderfilm {
+  background-color: #4e4a4a;
+}
+
+a {
+  color: #8e44d3;
+}
+
+a:hover {
+  color: #6a77e0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  padding: 0 50px;
+  z-index: 9;
+  top: 0;
+  padding-top: 50px;
+  pointer-events: none;
+}
+
+.main:after {
+  content: ' ';
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  background: -webkit-linear-gradient(top, #222222 0%, rgba(34, 34, 34, 0) 100%);
+}
+
+.main > * {
+  position: relative;
+  z-index: 10;
+  pointer-events: all;
+}
+
+hr.line-small {
+  width: 50px;
+}
 /*# sourceMappingURL=style.css.map */
