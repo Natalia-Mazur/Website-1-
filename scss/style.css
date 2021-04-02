@@ -171,7 +171,8 @@ header {
 }
 
 .carousel__sliderfilm {
-  background-color: #4e4a4a;
+  background-color: #585656;
+  max-height: 800px;
 }
 
 a {
@@ -243,5 +244,95 @@ hr.line-small {
 .details .button:hover {
   background: #39bcf0;
   color: #6a77e0;
+}
+
+.svg-mask {
+  position: absolute;
+}
+
+.featured-slider {
+  position: relative;
+  margin: 0;
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 50%;
+  -webkit-transform: scale(0.75) translateY(-100px);
+          transform: scale(0.75) translateY(-100px);
+}
+
+.featured-slider li {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  list-style: none;
+  position: absolute;
+  top: 1200px;
+  left: 0;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.featured-slider li.active {
+  opacity: 1;
+}
+
+.featured-slider li:nth-child(1) {
+  -webkit-transform: translate(-50%, -50%) rotate(0deg);
+          transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.featured-slider li:nth-child(2) {
+  -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.featured-slider li:nth-child(3) {
+  -webkit-transform: translate(-50%, -50%) rotate(180deg);
+          transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.featured-slider li:nth-child(4) {
+  -webkit-transform: translate(-50%, -50%) rotate(270deg);
+          transform: translate(-50%, -50%) rotate(270deg);
+}
+
+.featured-slider li .image {
+  width: 1200px;
+  height: auto;
+  -webkit-transform: translate(1px, 728px);
+          transform: translate(1px, 728px);
+}
+
+.featured-slider li .image img {
+  -webkit-clip-path: url(#quarterMask);
+          clip-path: url(#quarterMask);
+}
+
+nav {
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 100;
+  width: 100%;
+  padding: 0 20px;
+}
+
+nav .prev,
+nav .next {
+  background-color: black;
+  padding: 0 15px;
+  color: white;
+}
+
+nav .prev {
+  float: left;
+}
+
+nav .next {
+  float: right;
 }
 /*# sourceMappingURL=style.css.map */

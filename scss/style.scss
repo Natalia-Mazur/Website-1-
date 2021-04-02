@@ -172,7 +172,8 @@ a {
 
 
 .carousel__sliderfilm {
-  background-color: rgb(78, 74, 74);
+  background-color: rgb(88, 86, 86);
+  max-height: 800px;
 }
 
 a {
@@ -242,5 +243,81 @@ hr.line-small {
       background: $color-1;
       color: $color-2;
     }
+  }
+}
+
+
+.svg-mask {
+  position: absolute;
+}
+
+.featured-slider {
+  position: relative;
+  margin: 0;
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 50%;
+  transform: scale(0.75) translateY(-100px);
+  // pointer-events: none;
+
+
+  li {
+    user-select: none;
+    list-style: none;
+    position: absolute; 
+    top: 1200px; // 
+    left: 0;
+    transition: opacity 0.5s ease;
+    // opacity: 0.25; // 
+
+    
+    &.active {
+      opacity: 1;
+    }
+    &:nth-child(1) {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    &:nth-child(2) {
+      transform: translate(-50%, -50%) rotate(90deg);
+    }
+    &:nth-child(3) {
+      transform: translate(-50%, -50%) rotate(180deg);
+    }
+    &:nth-child(4) {
+      transform: translate(-50%, -50%) rotate(270deg);
+    }
+    .image {
+      width: 1200px;
+      height: auto;
+      transform: translate(1px, 728px);
+      img {
+        clip-path: url(#quarterMask);
+      }
+    }
+  }
+}
+
+nav {
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  width: 100%;
+  padding: 0 20px;
+
+  .prev,
+  .next {
+    background-color: black;
+    // border-radius: 100px;
+    padding: 0 15px;
+    color: white;
+  }
+  .prev {
+    float: left;
+  }
+  .next {
+    float: right;
   }
 }
