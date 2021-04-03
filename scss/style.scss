@@ -149,6 +149,7 @@ a {
   // background: linear-gradient(to right, #49a5ea , #6a77e0  ,#7e5bd9,  #8e44d3 , #687ae0); // < ----- background 2
   font-family: $font;
   padding: 90px 0;
+  height: 400px;
 
     img {
       width: 300px; 
@@ -164,7 +165,7 @@ a {
 }
 
 .line__aboutme {
-  margin-top: -50px;
+   margin-top: -50px;
 }
 
 //  The end section about me 
@@ -173,7 +174,8 @@ a {
 
 .carousel__sliderfilm {
   background-color: rgb(88, 86, 86);
-  max-height: 800px;
+  height: 1700px;
+
 }
 
 a {
@@ -187,68 +189,51 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-weight: bold;
+  font-family: $font;
 }
 
-.main {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  padding: 0 50px;
-  z-index: 9;
-  top: 0;
-  padding-top: 50px;
-  pointer-events: none;
-}
 
-.main:after {
-  content: ' ';
-  width: 100%;
-  height: 100px;
-  position: absolute;
-  z-index: 9;
-  top: 0;
-  left: 0;
-  background: -webkit-linear-gradient(top,  rgba(34,34,34,1) 0%,rgba(34,34,34,0) 100%);
-}
-
-.main > * {
-  position: relative;
-  z-index: 10;
-  pointer-events: all;
-}
-hr.line-small {
-  width: 50px;
+.line--details {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .details {
-  // position: fixed;
-  // width: 500px;
   top: -100px;
   left: 50%;
-  // transform: translateX(-50%);
   text-align: center;
+
   .title {
     margin-bottom: 0;
   }
-  .button {
-    background: transparent;
-    border: 1px solid $color-3;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 10px;
-    letter-spacing: 2px;
-    margin-top: 1rem;
-    z-index: 9999;
-    &:hover {
-      background: $color-1;
-      color: $color-2;
+
+    .roles {
+      padding-bottom: 10px;
     }
+    .button {
+      background: #6a77e0;
+      border: 1px solid $color-3;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: $font;
+      font-size: 10px;
+      letter-spacing: 2px;
+      padding: 3px;
+      cursor: pointer;
+ 
+      &:hover {
+        background: $color-1;
+        color: $color-2;
+        background: linear-gradient(to right, #39bcf0, #6a77e0 , #8e44d3 , #687ae0);
+        transition: 4s;
+      }
   }
 }
 
 
 .svg-mask {
-  position: absolute;
+  position: relative;
 }
 
 .featured-slider {
@@ -310,7 +295,6 @@ nav {
   .prev,
   .next {
     background-color: black;
-    // border-radius: 100px;
     padding: 0 15px;
     color: white;
   }
