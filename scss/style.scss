@@ -149,7 +149,7 @@ a {
   // background: linear-gradient(to right, #49a5ea , #6a77e0  ,#7e5bd9,  #8e44d3 , #687ae0); // < ----- background 2
   font-family: $font;
   padding: 90px 0;
-  height: 400px;
+  height: 470px;
 
     img {
       width: 300px; 
@@ -165,24 +165,36 @@ a {
 }
 
 .line__aboutme {
-   margin-top: -50px;
+   margin-top: -35px;
+
 }
 
 //  The end section about me 
 
+.bk-carousel {
+  margin-top: 32px;
+  background-color: $background-color;
 
+}
+.container__carousel {
+  padding-top: 100px;
+}
 .item {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 
-    p {
-      position: absolute;
-      color: $color-2;
-    }
-
-      img {
-        width: 50%;
+      p {
+        color: $color-2;
+        font-size: 25px;
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        max-width: 700px;
       }
-}
+        img {
+          width: 100%;
+     
+        }
+    }

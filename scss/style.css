@@ -152,7 +152,7 @@ header {
   background-color: #161616;
   font-family: "Playfair Display SC", serif;
   padding: 90px 0;
-  height: 400px;
+  height: 470px;
 }
 
 .about__me img {
@@ -168,7 +168,16 @@ header {
 }
 
 .line__aboutme {
-  margin-top: -50px;
+  margin-top: -35px;
+}
+
+.bk-carousel {
+  margin-top: 32px;
+  background-color: #161616;
+}
+
+.container__carousel {
+  padding-top: 100px;
 }
 
 .item {
@@ -186,11 +195,15 @@ header {
 }
 
 .item p {
-  position: absolute;
   color: #6a77e0;
+  font-size: 25px;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  max-width: 700px;
 }
 
 .item img {
-  width: 50%;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
