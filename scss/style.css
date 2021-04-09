@@ -180,6 +180,10 @@ header {
   padding-top: 100px;
 }
 
+.carousel-inner {
+  background-color: #161616;
+}
+
 .item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -195,15 +199,16 @@ header {
 }
 
 .item p {
-  color: #6a77e0;
+  color: #8e44d3;
   font-size: 25px;
   position: absolute;
-  top: 35%;
-  left: 20%;
+  top: 10%;
+  left: 40%;
   max-width: 700px;
 }
 
 .item img {
   width: 100%;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -176,25 +176,31 @@ a {
   background-color: $background-color;
 
 }
+
 .container__carousel {
   padding-top: 100px;
 }
-.item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
 
-      p {
-        color: $color-2;
-        font-size: 25px;
-        position: absolute;
-        top: 35%;
-        left: 20%;
-        max-width: 700px;
-      }
-        img {
-          width: 100%;
-     
+.carousel-inner {
+  background-color: $background-color;
+}
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+        p {
+          color: $color-3;
+          font-size: 25px;
+          position: absolute;
+          top: 10%;
+          left: 40%;
+          max-width: 700px;
         }
-    }
+          img {
+            width: 100%;
+            border-radius: 20px;
+            
+          }
+  }
