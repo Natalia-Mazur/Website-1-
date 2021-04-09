@@ -84,6 +84,7 @@ a {
  header {
    background-color: #161616;
    max-height: 330px;
+   padding-bottom: 70px;
  }
  
 .navbar {
@@ -131,7 +132,7 @@ a {
         }
     }
 
-}// end navbar 
+}
 
 // colors are changeable. im waiting for decision
 
@@ -140,39 +141,29 @@ a {
 
 
 .about__me {
+  background-image: url(../daniel-sessler-C0B4hFJqo6Q-unsplash.jpg); // example photo / change !!!
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  flex-wrap: row wrap;
   text-align: center;
   background-color: $background-color;
-  // background: linear-gradient(to right, #49a5ea , #6a77e0  ,#7e5bd9,  #8e44d3 , #687ae0); // < ----- background 2
   font-family: $font;
   padding: 90px 0;
   height: 470px;
 
-    img {
-      width: 300px; 
-      margin: 0;
-    }
+  
     .about__me--text {
-      max-width: 500px;
+      max-width: 700px;
       padding: 60px 30px;
       font-size: 18px;
       color: $color-3;
     }
- 
 }
 
-.line__aboutme {
-   margin-top: -35px;
 
-}
 
 //  The end section about me 
 
 .bk-carousel {
-  margin-top: 32px;
   background-color: $background-color;
 
 }
@@ -204,3 +195,19 @@ a {
             
           }
   }
+
+  // The end section carousel
+
+
+.footer__bottom {
+  background-color:$background-color;
+  height: 70px;
+
+
+    p {
+      padding: 30px 20px 0;
+      color: $color-3;
+      font-family: $font;
+      font-size: 1q5px;
+    }
+}

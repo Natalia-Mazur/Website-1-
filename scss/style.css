@@ -73,6 +73,7 @@ a {
 header {
   background-color: #161616;
   max-height: 330px;
+  padding-bottom: 70px;
 }
 
 .navbar {
@@ -136,18 +137,13 @@ header {
 }
 
 .about__me {
+  background-image: url(../daniel-sessler-C0B4hFJqo6Q-unsplash.jpg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: row wrap;
-      flex-wrap: row wrap;
   text-align: center;
   background-color: #161616;
   font-family: "Playfair Display SC", serif;
@@ -155,24 +151,14 @@ header {
   height: 470px;
 }
 
-.about__me img {
-  width: 300px;
-  margin: 0;
-}
-
 .about__me .about__me--text {
-  max-width: 500px;
+  max-width: 700px;
   padding: 60px 30px;
   font-size: 18px;
   color: #8e44d3;
 }
 
-.line__aboutme {
-  margin-top: -35px;
-}
-
 .bk-carousel {
-  margin-top: 32px;
   background-color: #161616;
 }
 
@@ -210,5 +196,17 @@ header {
 .item img {
   width: 100%;
   border-radius: 20px;
+}
+
+.footer__bottom {
+  background-color: #161616;
+  height: 70px;
+}
+
+.footer__bottom p {
+  padding: 30px 20px 0;
+  color: #8e44d3;
+  font-family: "Playfair Display SC", serif;
+  font-size: 1q5px;
 }
 /*# sourceMappingURL=style.css.map */
