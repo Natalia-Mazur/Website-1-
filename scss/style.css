@@ -216,6 +216,7 @@ header {
           justify-content: center;
   padding: 80px 0 50px 0;
   color: #8e44d3;
+  font-family: "Playfair Display SC", serif;
 }
 
 .all__contact .headline {
@@ -249,13 +250,28 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   color: #8e44d3;
   border: none;
-  width: 100px;
+}
+
+.application__form button {
+  padding: 15px;
+  text-transform: uppercase;
+  font-family: "Playfair Display SC", serif;
+  border-radius: 5px;
+  background-color: #6a77e0;
+  color: black;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.application__form .form {
+  padding: 20px;
 }
 
 .footer__bottom {
