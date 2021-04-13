@@ -278,3 +278,45 @@ a {
     }
 }
 // The end footer bottom
+
+
+
+.stories {
+  background-color: $background-color;
+
+    .stories__main--title {
+      color: $color-3;
+      font-size: 30px;
+      letter-spacing: 3px;
+      font-weight: bold;
+      font-family: $font;
+      text-align: center;
+      padding: 80px 0;
+    }
+
+      .stories__main--all {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-right: 380px;
+
+
+          .stories__main--namesurname {
+            color: $color-3;
+            font-size: 30px;
+            letter-spacing: 3px;
+            font-weight: bold;
+            font-family: $font;
+            text-align: center;
+          }
+
+            .stories__main--descriptions {
+              color: $color-3;
+              font-size: 15px;
+              letter-spacing: 1px;
+              font-family: $font;
+              text-align: center;
+              padding: 20px 10px;
+            }
+      }
+}

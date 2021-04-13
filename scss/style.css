@@ -285,4 +285,50 @@ header {
   font-family: "Playfair Display SC", serif;
   font-size: 15px;
 }
+
+.stories {
+  background-color: #161616;
+}
+
+.stories .stories__main--title {
+  color: #8e44d3;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: "Playfair Display SC", serif;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.stories .stories__main--all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 380px;
+}
+
+.stories .stories__main--all .stories__main--namesurname {
+  color: #8e44d3;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: "Playfair Display SC", serif;
+  text-align: center;
+}
+
+.stories .stories__main--all .stories__main--descriptions {
+  color: #8e44d3;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "Playfair Display SC", serif;
+  text-align: center;
+  padding: 20px 10px;
+}
 /*# sourceMappingURL=style.css.map */
