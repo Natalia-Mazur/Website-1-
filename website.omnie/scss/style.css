@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:800&display=swap");
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.jumbotron {
+  position: relative;
+}
+
+/* clear  */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.line {
+  background: -webkit-gradient(linear, left top, right top, from(#39bcf0), color-stop(#6a77e0), color-stop(#8e44d3), to(#687ae0));
+  background: linear-gradient(to right, #39bcf0, #6a77e0, #8e44d3, #687ae0);
+  width: 350px;
+  height: 3px;
+  border: none;
+  margin-top: 50px;
+}
+
+header {
+  background-color: #161616;
+  max-height: 330px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.navbar .logo {
+  size: 30px;
+  padding: 0 30px;
+}
+
+.navbar .logo img {
+  width: 100px;
+  margin: 0;
+}
+
+.navbar .navbar__menu {
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.navbar .navbar__menu li {
+  font-family: "Playfair Display SC", serif;
+  position: relative;
+  display: inline-block;
+  font-size: 22px;
+  padding: 0 30px;
+  font-weight: 900;
+  color: royalblue;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, right top, from(#39bcf0), color-stop(50%, #6a77e0), color-stop(50%, #8e44d3), to(#687ae0));
+  background: linear-gradient(to right, #39bcf0, #6a77e0 50%, #8e44d3 50%, #687ae0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  -webkit-transition: background-position 1s ease;
+  transition: background-position 1s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar .navbar__menu li:hover {
+  background-position: 0 100%;
+}
+/*# sourceMappingURL=style.css.map */
