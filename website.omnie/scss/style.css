@@ -138,7 +138,6 @@ header {
 
 .about__me {
   background-color: #161616;
-  padding-top: 100px;
 }
 
 .about__me .about__me--all {
@@ -160,7 +159,7 @@ header {
   text-align: right;
   padding-top: 80px;
   padding-left: 130px;
-  color: #6a77e0;
+  color: #8e44d3;
   font-family: "Playfair Display SC", serif;
   font-size: 30px;
   letter-spacing: 4px;
@@ -174,7 +173,7 @@ header {
 
 .explore__me {
   background-color: #161616;
-  padding-top: 100px;
+  padding-top: 130px;
 }
 
 .explore__me .explore__me--all {
@@ -196,7 +195,7 @@ header {
   text-align: left;
   padding-top: 80px;
   padding-right: 130px;
-  color: #6a77e0;
+  color: #8e44d3;
   font-family: "Playfair Display SC", serif;
   letter-spacing: 4px;
 }
@@ -211,5 +210,94 @@ header {
 .explore__me .explore__me--all .explore__me--text p {
   padding-top: 35px;
   font-size: 18px;
+}
+
+.section__allcontact {
+  background-color: #161616;
+  padding-top: 150px;
+}
+
+.all__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 80px 0 50px 0;
+  color: #8e44d3;
+  font-family: "Playfair Display SC", serif;
+}
+
+.all__contact .headline {
+  padding: 0 60px;
+}
+
+.all__contact h1 {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8em;
+  font-weight: 700;
+}
+
+.all__contact p {
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.all__contact a {
+  padding: 0 10px;
+  font-size: 30px;
+  color: #8e44d3;
+}
+
+.application__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #8e44d3;
+  border: none;
+}
+
+.application__form button {
+  padding: 15px;
+  text-transform: uppercase;
+  font-family: "Playfair Display SC", serif;
+  border-radius: 5px;
+  background-color: #6a77e0;
+  color: black;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.application__form .form {
+  padding: 20px;
+}
+
+.footer__bottom {
+  background-color: #161616;
+  height: 70px;
+}
+
+.footer__bottom p {
+  padding: 30px 20px 0;
+  color: #8e44d3;
+  font-family: "Playfair Display SC", serif;
+  font-size: 15px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -137,7 +137,6 @@ a {
 
 .about__me {
   background-color: $background-color;
-  padding-top: 100px;
   
     .about__me--all {
       display: flex;
@@ -151,7 +150,7 @@ a {
         text-align: right;
         padding-top: 80px;
         padding-left: 130px;
-        color: $color-2;
+        color: $color-3;
         font-family: $font;
         font-size: 30px;
         letter-spacing: 4px;
@@ -168,7 +167,7 @@ a {
 
 .explore__me {
   background-color: $background-color;
-  padding-top: 100px;
+  padding-top: 130px;
 
     .explore__me--all {
       display: flex;
@@ -183,7 +182,7 @@ a {
           text-align: left;
           padding-top: 80px;
           padding-right: 130px;
-          color: $color-2;
+          color: $color-3;
           font-family: $font;
           letter-spacing: 4px;
 
@@ -200,3 +199,89 @@ a {
         }
       }
 }
+
+// The end section explore me 
+
+
+.section__allcontact {
+  background-color: $background-color;
+  padding-top: 150px;
+}
+.all__contact {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding: 80px 0 50px 0;
+  color: $color-3;
+  font-family: $font;
+
+
+    .headline {
+      padding: 0 60px;
+    }
+
+      h1 {
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        line-height: 1.8em;
+        font-weight: 700;
+      }
+
+        p {
+          padding: 10px;
+          letter-spacing: 2px;
+        }
+        
+          a {
+            padding: 0 10px;
+            font-size: 30px;
+            color: $color-3;
+          }
+}
+
+.application__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: $color-3;
+  border: none;
+
+    button {
+      padding: 15px;
+      text-transform: uppercase;
+      font-family: $font;
+      border-radius: 5px;
+      background-color: $color-2;
+      color: black;
+      border: none;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    .form {
+      padding: 20px;
+    }
+}
+
+
+
+
+// The end section contact
+
+
+.footer__bottom {
+  background-color:$background-color;
+  height: 70px;
+
+
+    p {
+      padding: 30px 20px 0;
+      color: $color-3;
+      font-family: $font;
+      font-size: 15px;
+    }
+}
+// The end footer bottom
+
