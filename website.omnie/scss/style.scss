@@ -163,3 +163,40 @@ a {
           }
       }
 }
+
+//  The end section about__me
+
+.explore__me {
+  background-color: $background-color;
+  padding-top: 100px;
+
+    .explore__me--all {
+      display: flex;
+      flex-direction: row;
+
+      img {
+        width: 600px;
+        height: 500px;
+      }
+
+        .explore__me--text {
+          text-align: left;
+          padding-top: 80px;
+          padding-right: 130px;
+          color: $color-2;
+          font-family: $font;
+          letter-spacing: 4px;
+
+            h1 {
+              text-transform: uppercase;
+              text-align: center;
+              font-size: 25px;
+              font-weight: bold;
+            }
+              p {
+                padding-top: 35px;
+                font-size: 18px;
+              }
+        }
+      }
+}

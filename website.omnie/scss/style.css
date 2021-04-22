@@ -171,4 +171,45 @@ header {
 .about__me .about__me--text p {
   padding-top: 15px;
 }
+
+.explore__me {
+  background-color: #161616;
+  padding-top: 100px;
+}
+
+.explore__me .explore__me--all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.explore__me .explore__me--all img {
+  width: 600px;
+  height: 500px;
+}
+
+.explore__me .explore__me--all .explore__me--text {
+  text-align: left;
+  padding-top: 80px;
+  padding-right: 130px;
+  color: #6a77e0;
+  font-family: "Playfair Display SC", serif;
+  letter-spacing: 4px;
+}
+
+.explore__me .explore__me--all .explore__me--text h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.explore__me .explore__me--all .explore__me--text p {
+  padding-top: 35px;
+  font-size: 18px;
+}
 /*# sourceMappingURL=style.css.map */
