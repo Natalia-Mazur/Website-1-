@@ -134,3 +134,32 @@ a {
 }
 
 // The end navbar
+
+.about__me {
+  background-color: $background-color;
+  padding-top: 100px;
+  
+    .about__me--all {
+      display: flex;
+      flex-direction: row;
+    }
+        img {
+        width: 600px;
+        height: 500px;
+      }
+      .about__me--text {
+        text-align: right;
+        padding-top: 80px;
+        padding-left: 130px;
+        color: $color-2;
+        font-family: $font;
+        font-size: 30px;
+        letter-spacing: 4px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+          p {
+            padding-top: 15px;
+          }
+      }
+}

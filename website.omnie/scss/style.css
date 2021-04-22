@@ -135,4 +135,40 @@ header {
 .navbar .navbar__menu li:hover {
   background-position: 0 100%;
 }
+
+.about__me {
+  background-color: #161616;
+  padding-top: 100px;
+}
+
+.about__me .about__me--all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about__me img {
+  width: 600px;
+  height: 500px;
+}
+
+.about__me .about__me--text {
+  text-align: right;
+  padding-top: 80px;
+  padding-left: 130px;
+  color: #6a77e0;
+  font-family: "Playfair Display SC", serif;
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about__me .about__me--text p {
+  padding-top: 15px;
+}
 /*# sourceMappingURL=style.css.map */
