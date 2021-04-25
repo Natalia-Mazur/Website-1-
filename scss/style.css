@@ -166,6 +166,10 @@ header {
   padding-top: 100px;
 }
 
+.container__carousel .carousel-control {
+  border-radius: 20px;
+}
+
 .carousel-inner {
   background-color: #161616;
 }
@@ -200,6 +204,7 @@ header {
 
 .section__allcontact {
   background-color: #161616;
+  padding-top: 150px;
 }
 
 .all__contact {
